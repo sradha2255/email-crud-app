@@ -30,7 +30,8 @@ function EmailList({ emails, onSelect, onDelete }) {
                   <td className="text-center">
                     <div className="d-flex justify-content-center gap-2">
                       <button
-                        className="btn btn-sm btn-info"
+                        className="btn btn-sm"
+                        style={{ backgroundColor: '#6f42c1', color: 'white' }}
                         onClick={() => onSelect(email)}
                         title="View"
                       >

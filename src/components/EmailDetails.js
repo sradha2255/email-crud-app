@@ -14,10 +14,19 @@ function EmailDetails({ email, onEdit, onDelete }) {
       <hr />
       <p>{email.body}</p>
       <div className="d-flex gap-2 mt-3">
-        <button className="btn btn-warning btn-sm" title="Edit" onClick={() => onEdit(email)}>
+        <button
+          className="btn btn-sm"
+          style={{ backgroundColor: '#20c997', color: 'white' }}
+          title="Edit"
+          onClick={() => onEdit(email)}
+        >
           <FaEdit />
         </button>
-        <button className="btn btn-danger btn-sm" title="Delete" onClick={() => onDelete(email.id)}>
+        <button
+          className="btn btn-danger btn-sm"
+          title="Delete"
+          onClick={() => onDelete(email.id)}
+        >
           <FaTrash />
         </button>
       </div>
