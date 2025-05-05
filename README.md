@@ -1,63 +1,65 @@
-# Email CRUD React App
+1. Project Title  
+   - Email CRUD React App
 
-A user-friendly CRUD (Create, Read, Update, Delete) application for managing emails — built using ReactJS, styled with Bootstrap, and enhanced with React Icons.
+2. Features  
+   - Create and send new emails  
+   - View a list of all sent emails  
+   - View full email details  
+   - Edit emails from the details section  
+   - Delete emails from the list or detail view  
+   - Search emails by recipient or subject  
+   - Emails stored using Local Storage  
+   - Responsive UI using Bootstrap
 
----
+3. Functionality  
+   - Create: Fill in "To", "Subject", and "Body" and click Send  
+   - Read: Emails appear in a table with basic info  
+   - View: Click "View" to see full email content  
+   - Edit: From details, click Edit and update the fields  
+   - Delete: Remove email from list or details view  
+   - Search: Use search bar to filter emails by recipient or subject
 
-## Features
+4. Tech Stack  
+   - ReactJS (Create React App)  
+   - Bootstrap 5  
+   - React Icons  
+   - React Hooks (useState, useEffect)  
+   - Local Storage
 
-- Create and send new emails  
-- View list of all sent emails  
-- Search by recipient or subject  
-- View full email details  
-- Delete emails  
-- Edit emails from details panel  
-- Emails stored using Local Storage  
-- Responsive UI using Bootstrap
+5. Folder Structure  
+   email-crud-app  
+   ├── public  
+   ├── src  
+   │   ├── components  
+   │   │   ├── EmailForm.js  
+   │   │   ├── EmailList.js  
+   │   │   ├── EmailDetails.js  
+   │   │   └── SearchBar.js  
+   │   ├── App.js  
+   │   ├── index.js  
+   │   └── styles.css  
+   ├── README.md  
+   └── package.json
 
----
+6. How to Run  
+   - Clone this repository  
+     ```bash
+     git clone https://github.com/sradha2255/email-crud-app.git
+     ```
+   - Navigate into the folder  
+     ```bash
+     cd email-crud-app
+     ```
+   - Install dependencies  
+     ```bash
+     npm install
+     ```
+   - Start the app  
+     ```bash
+     npm start
+     ```
+   - Visit `http://localhost:3000` in your browser
 
-## Tech Stack
-
-- ReactJS (Create React App)
-- Bootstrap 5
-- React Icons
-- React Hooks (useState, useEffect)
-- Local Storage (for saving emails)
-
----
-
-## Folder Structure
-
-email-crud-app/
-├── public/
-├── src/
-│ ├── components/
-│ │ ├── EmailForm.js
-│ │ ├── EmailList.js
-│ │ ├── EmailDetails.js
-│ │ └── SearchBar.js
-│ ├── App.js
-│ ├── index.js
-│ └── styles.css
-├── README.md
-└── package.json
-
----
-
-## How to Run Locally
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/email-crud-app.git
-2.  into the project:
-cd email-crud-app
-3. Install dependencies:
-npm install
-4. Start the development server:
-npm start
-Then open your browser and go to http://localhost:3000.
-
-Author:
-Sradha
-GitHub: @sradha2255
+7. Author  
+   - Name: Sradha  
+   - GitHub: [https://github.com/sradha2255](https://github.com/sradha2255)
